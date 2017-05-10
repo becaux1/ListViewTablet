@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="genero">GENERO</string>
+    <string name="autor">AUTOR</string>
+    <string name="resumen">RESUMEN</string>
+    <string name="titulo">TITULO</string>
+    <string name="poesia">POESIA</string>
+    <string name="novela">NOVELA</string>
+    <string name="teatro">TEATRO</string>
+    <string name="boton_insertar_nuevo">INSERTAR LIBRO</string>
+    <string name="boton_insertar">INSERTAR</string>
+    <string name="boton_resumen">VOLVER</string>
+    <string name="titulo_app">MIS LIBROS FAVORITOS</string>
+    <string name="vermas">ver mas</string>
+    <string name="editar">editar</string>
+    <string name="borrar">borrar</string>
+    <string name="noseleccionado">No ha seleccionado ningun libro</string>
+
+</resources>

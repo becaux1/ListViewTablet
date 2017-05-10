@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_form">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:stretchColumns="1"
+        >
+        <TableRow>
+            <TextView
+                android:text="@string/titulo"
+                android:id="@+id/tv_titulo" />
+            <EditText
+                android:id="@+id/et_titulo" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/autor"
+                android:id="@+id/tv_autor" />
+            <EditText
+                android:id="@+id/et_autor" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/resumen"
+                android:id="@+id/tv_resumen" />
+            <EditText
+                android:id="@+id/et_resumen" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/genero"
+                android:id="@+id/tv_genero" />
+            <RadioGroup
+                android:id="@+id/rg_genero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="@string/novela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_novela"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:text="@string/poesia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_poesia"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:text="@string/teatro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_teatro"
+                    android:layout_weight="1" />
+            </RadioGroup>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_insertar"
+        android:text="@string/boton_insertar" />
+
+</LinearLayout>
